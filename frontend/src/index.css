@@ -1,0 +1,29 @@
+/* Helpers */
+.ui.form .fields > .field {
+  flex: 1 auto !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-width: 0 !important;
+}
+#ButtonJoin .ui.button,
+#ImageInput label {
+  margin: 0;
+}
+#ImageInput,
+#FormIntroduce,
+#ButtonJoin {
+  border: 0;
+  box-shadow: none;
+}
+#ImageInput .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
